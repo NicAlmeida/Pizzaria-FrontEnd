@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu Cadastro - Dados do Endereço</title>
+    <link rel="icon" href="../img/logo-pizza.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/cadastroEndereco.css">
+</head>
+<body>
+
+    <div class="logo-pizzaria">
+        <img src="../img/pizza-no-desfoque.jpg" alt="logo-nick's-pizza">
+    </div>
+
+    <header class="cabecalho">
+        <img src="../img/logo-pizza.png" alt="logo pizzaria">
+    </header>
+  
+    <div class="container">
+        <h1 class="titulo">Faça seu Cadastro</h1>
+        <p class="descricao">Nos passe seu endereço para encontrar a pizza mais próxima de você!</p>
+
+        <form class="formulario">
+            <fieldset class="campo-grupo">
+                <legend class="legenda">Dados do Endereço</legend>
+
+                <label class="label" for="logradouro">Qual é a sua rua?</label>
+                <input class="input" type="text" id="logradouro" name="logradouro" placeholder="Ex: Rua das Flores" required>
+
+                <label class="label" for="numero">Número da sua casa</label>
+                <input class="input" type="number" id="numero" name="numero" placeholder="Ex: 123" required>
+
+                <label class="label" for="complemento">Tem algum complemento?</label>
+                <input class="input" type="text" id="complemento" name="complemento" placeholder="Ex: Ao lado da escola" />
+
+                <label class="label" for="bairro">Em qual bairro você mora?</label>
+                <input class="input" type="text" id="bairro" name="bairro" placeholder="Ex: Centro" required>
+
+                <label class="label" for="cidade">Qual a sua cidade?</label>
+                <input class="input" type="text" id="cidade" name="cidade" placeholder="Ex: São Paulo" required>
+
+                <label class="label" for="estado">Em qual estado está?</label>
+                <input class="input" type="text" id="estado" name="estado" placeholder="Ex: SP" required>
+
+                <label class="label" for="cep">Qual o seu CEP?</label>
+                <input class="input" type="text" id="cep" name="cep" placeholder="Ex: 00000-000" required>
+
+                <label class="label" for="referencia">Poderia informar um ponto de referência?</label>
+                <input class="input" type="text" id="referencia" name="referencia" placeholder="Ex: Próximo ao mercado Carrefour" />
+            </fieldset>
+
+            <a class="botao" href="./cadastroConcluido.html">Cadastrar</a>
+            <a href="../index.html">Voltar à página anterior</a>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: "Roboto", serif;
+    background-color: #fff; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
+    text-align: center;
+    flex-direction: column;
+}
+
+.cabecalho {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.cabecalho img {
+    max-width: 150px;
+    height: auto;
+}
+
+.logo-pizzaria {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.logo-pizzaria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: auto; 
+}
+
+.left-side {
+    width: 50%;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.titulo {
+    font-size: 2rem;
+    color: #d32f2f; 
+    margin-bottom: 20px;
+}
+
+.descricao {
+    font-size: 1rem;
+    color: #666;
+}
+
+.right-side {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-grupo {
+    margin-bottom: 20px;
+    border: none;
+    padding: 0;
+}
+
+.legenda {
+    font-size: 1.2rem;
+    color: #d32f2f;
+    margin-bottom: 10px;
+}
+
+.label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #333;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.input:focus {
+    border-color: #d32f2f;
+    outline: none;
+}
+
+a {
+    display: inline-block;
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 12px;
+    width: 93%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+a:hover {
+    background-color: #b71c1c;
+}
