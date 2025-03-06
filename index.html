@@ -3,41 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faça seu Cadastro - Informações Pessoais</title>
-    <link rel="icon" href="./img/logo-pizza.png" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/cadastro.css">
+    <title>Bem-vindo à Nick's Pizza</title>
+    <link rel="stylesheet" href="./styles/bemVindo.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <img src="./img/logo-pizza.png" alt="logo pizzaria">
-    </header>
-
-    <div class="logo-pizzaria">
-        <img src="./img/pizza-no-desfoque.jpg" alt="logo-nick's-pizza">
-    </div>
-
     <div class="container">
-        <div class="left-side">
-            <h1 class="titulo">Faça seu Cadastro</h1>
-            <p class="descricao">Cadastre-se para acumular pontos na nossa pizzaria!</p>
-        </div>
-
-        <div class="right-side">
-            <form class="formulario">
-                <fieldset class="campo-grupo">
-                    <legend class="legenda">Informações Pessoais</legend>
-
-                    <label class="label" for="nome-completo">Qual o seu nome completo?</label>
-                    <input class="input" type="text" id="nome-completo" name="nome-completo" placeholder="Ex: João da Silva" required>
-
-                    <label class="label" for="telefone">Qual é o seu telefone?</label>
-                    <input class="input" type="tel" id="telefone" name="telefone" placeholder="Ex: (11) 1234-5678" required>
-                </fieldset>
-
-                <a href="./pages/cadastroEndereco.html">Próximo</a>
-            </form>
+        <header>
+            <img src="../img/logo-pizza.png" alt="Logo Nick's Pizza" class="logo">
+            <h1>Bem-vindo à Nick's Pizza</h1>
+            <p>Escolha uma opção para continuar</p>
+        </header>
+        <div class="opcoes">
+            <a href="./pages/cadastrarCliente.html" class="botao">Cadastrar Cliente</a>
+            <a href="./pages/fazerPedido.html" class="botao">Cadastrar Pedido</a>
+            <a href="./pages/cadastrarCardapio.html" class="botao">Cadastrar Cardápio</a>
         </div>
     </div>
-
 </body>
 </html>
